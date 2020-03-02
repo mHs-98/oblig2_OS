@@ -1,24 +1,27 @@
 # Obligatorisk oppgave 2 - Bash pipelines og scripting
 
-Denne oppgaven består av de følgende laboppgavene fra kompendiet:
+Denne oppgaven bestï¿½r av de fï¿½lgende laboppgavene fra kompendiet:
 
-* 7.5.a (Prosesser og tråder)
+* 7.5.a (Prosesser og trï¿½der)
 * 8.6.c (Page faults)
 * 8.6.d (En prosess sin bruk av virtuelt og fysisk minne)
 * 9.4.a (Informasjon om deler av filsystemet)
 
-SE OPPGAVETEKST I KOMPENDIET. HUSK Å REDIGER TEKSTEN NEDENFOR!
+SE OPPGAVETEKST I KOMPENDIET. HUSK ï¿½ REDIGER TEKSTEN NEDENFOR!
 
 ## Gruppemedlemmer
 
-**TODO: Erstatt med navn på gruppemedlemmene**
+**TODO: Erstatt med navn pï¿½ gruppemedlemmene**
 
-* Ola Eksempel
-* Kari Mal
+* Mahamed Hassan Said
 
 ## Sjekkliste
 
-* Har navnene på gruppemedlemmene blitt skrevet inn over?
-* Har læringsassistenter og foreleser blitt lagt til med leserettigheter?
+* Har navnene pï¿½ gruppemedlemmene blitt skrevet inn over?
+    *Yes
+* Har lï¿½ringsassistenter og foreleser blitt lagt til med leserettigheter?
+    *Yes
 * Er issue-tracker aktivert?
+    *Yes
 * Er pipeline aktivert, og returnerer pipelinen "Successful"?
+    *aktivert, men ingen "Successful"??(^~^)
