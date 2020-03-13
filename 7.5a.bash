@@ -28,7 +28,7 @@ do
     read -r
     clear
     ;;
-  3) echo "$(uptime)" | awk -F'GJennomsnittling load siste minutt :' '{ print $2 }'
+  3) echo $(uptime) | awk -F'GJennomsnittling load siste minutt :' '{ print $2 }'
     read -r
     clear
     ;;
