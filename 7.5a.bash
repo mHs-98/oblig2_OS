@@ -28,11 +28,11 @@ do
     read -r
     clear
     ;;
-  3) echo $(uptime) | awk -F'GJennomsnittling load siste minutt :' '{ print $2 }'
+  3) echo " $(uptime) " | awk -F'GJennomsnittling load siste minutt :' '{ print $2 }'
     read -r
     clear
     ;;
-  4) echo "Så mange prosser "$(ps aux | wc -l)" finnes, og så mange tråder  $(( `ps axms | wc -l`  - 1)) finnes"
+  4) echo " Så mange prosser "$(ps aux | wc -l)" finnes, og så mange tråder  $(( `ps axms | wc -l`  - 1)) finnes"
      read -r
     clear
     ;;

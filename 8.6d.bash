@@ -12,13 +12,13 @@
 function skrivTilFIl {  #denne funskjonen leser inn info om en gitt process og skriver til fil
 	currentDate=$(date +%Y%m%d-%H:%M:%S)
 	fileNavn="$pid-$currentDate.meminfo"
-	touch $fileNavn
-	echo "******** Minne info om prosess med PID $pid ********" > $fileNavn
-	echo "Total bruk av virtuelt minne (VmSize):	$VmSize KB" >> $fileNavn
-	echo "Mengde private virtuelt minne(VmData+VmStk+VmExe):	$VmPriv KB" >> $fileNavn
+	touch "$fileNavn"
+	echo "******** Minne info om prosess med PID $pid ********" > "$fileNavn"
+	echo "Total bruk av virtuelt minne (VmSize):	$VmSize KB" >> "$fileNavn"
+	echo "Mengde private virtuelt minne(VmData+VmStk+VmExe):	$VmPriv KB" >> "$fileNavn"
 	echo "Mengde shared virtuelt minne (VmLiB):	$VmLib KB" >> $fileNavn
 	echo "Total bruk av fysisk minne (VmRSS):	$VmRSS KB" >> $fileNavn
-	echo "Mengde fysisk minne som benyttes til page table (VmPTE):	$VmPTE KB" >> $fileNavn
+	echo "Mengde fysisk minne som benyttes til page table (VmPTE):	$VmPTE KB" >> "$fileNavn"
 }
 
 
