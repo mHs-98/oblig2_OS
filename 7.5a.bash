@@ -32,7 +32,7 @@ do
     read -r
     clear
     ;;
-  4) echo " Så mange prosser "$(ps aux | wc -l)" finnes, og så mange tråder  $(( `ps axms | wc -l`  - 1)) finnes"
+  4) echo " Saa mange prosser "$(ps aux | wc -l)" finnes, og så mange tråder  $(( `ps axms | wc -l`  - 1)) finnes "
      read -r
     clear
     ;;
