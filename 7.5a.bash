@@ -32,11 +32,11 @@ do
     read -r
     clear
     ;;
-  4) echo " Saa mange prosser "$(ps aux | wc -l)" finnes, og så mange tråder  $(( `ps axms | wc -l`  - 1)) finnes "
+  4) echo " Saa mange prosser $(ps aux | wc -l) finnes, og så mange tråder  $( ps axms | wc -l  - 1) finnes "
      read -r
     clear
     ;;
-  5) echo "Så mange $(grep ctxt /proc/stat | awk '{print $2}'}) context switcher fant sted siste sekund"
+  5) echo "Så mange $(grep ctxt /proc/stat | awk '{print $2}') context switcher fant sted siste sekund"
     read -r
     clear
     ;;
